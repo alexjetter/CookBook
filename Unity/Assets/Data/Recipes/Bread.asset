@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96acbcdd145a8c44d918d7a9c32fe445, type: 3}
+  m_Name: Bread
+  m_EditorClassIdentifier: 
+  ResultItem: {fileID: 11400000, guid: 1c73c9bb3481b914dbec8f04664f9e50, type: 2}
+  Ingredients:
+  - Name: Flour
+    Quantity: 500
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    Ingredient: {fileID: 11400000, guid: db382a14456a20940979d1ca3665c9f2, type: 2}
+    PostStates: []
+  - Name: Water
+    Quantity: 350
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    Ingredient: {fileID: 11400000, guid: fb2ffd809d24f7c429f06e9861fc5608, type: 2}
+    PostStates: []
+  - Name: Salt
+    Quantity: 10
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    Ingredient: {fileID: 11400000, guid: 26fa227c7af1d434286014a4b11c3deb, type: 2}
+    PostStates: []
+  - Name: Yeast
+    Quantity: 5
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates:
+    - {fileID: 0}
+    Ingredient: {fileID: 11400000, guid: 38d13eaff1affb847b00b56b156fd7e5, type: 2}
+    PostStates: []

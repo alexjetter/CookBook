@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96acbcdd145a8c44d918d7a9c32fe445, type: 3}
+  m_Name: New York Times Chocolate Chip Cookies
+  m_EditorClassIdentifier: 
+  ResultItem: {fileID: 11400000, guid: 1c73c9bb3481b914dbec8f04664f9e50, type: 2}
+  Ingredients:
+  - Name: Flour
+    Ingredient: {fileID: 11400000, guid: db382a14456a20940979d1ca3665c9f2, type: 2}
+    Quantity: 533
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates:
+    - {fileID: 11400000, guid: c4c1af64b707d4340b8d5af4d56713ef, type: 2}
+  - Name: Gluten
+    Ingredient: {fileID: 11400000, guid: 629cd55fcded3f545b43e3a6c846662b, type: 2}
+    Quantity: 350
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Baking Powder
+    Ingredient: {fileID: 11400000, guid: 4b954e45fb7d54a4b89ab08faa3c183d, type: 2}
+    Quantity: 6
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Baking Soda
+    Ingredient: {fileID: 11400000, guid: 37a1f1ced45956348b8bf62bacf1fa2f, type: 2}
+    Quantity: 5
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Salt
+    Ingredient: {fileID: 11400000, guid: 26fa227c7af1d434286014a4b11c3deb, type: 2}
+    Quantity: 5
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Butter
+    Ingredient: {fileID: 11400000, guid: 863a4fc5bee7c2a4f9b48c192f187e75, type: 2}
+    Quantity: 283
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates:
+    - {fileID: 11400000, guid: 00cf67a788eb722438d9eb7938236dd4, type: 2}
+  - Name: Sugar
+    Ingredient: {fileID: 11400000, guid: 95e35868bac58d143a48d9f13bed9101, type: 2}
+    Quantity: 520
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Molasses
+    Ingredient: {fileID: 11400000, guid: 244963cbc5c26c84a921509c9387e12a, type: 2}
+    Quantity: 30
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Vanilla
+    Ingredient: {fileID: 11400000, guid: 5b4a42236d7dc734c87c27b988c5c643, type: 2}
+    Quantity: 8
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Egg
+    Ingredient: {fileID: 11400000, guid: ab91d121f42997f4ebcbb6cb2b8c6f57, type: 2}
+    Quantity: 2
+    Unit: {fileID: 0}
+    PreStates: []
+    PostStates: []

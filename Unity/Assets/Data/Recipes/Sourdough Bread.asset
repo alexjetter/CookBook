@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96acbcdd145a8c44d918d7a9c32fe445, type: 3}
+  m_Name: Sourdough Bread
+  m_EditorClassIdentifier: 
+  ResultItem: {fileID: 11400000, guid: 7a84d22d667ff2a48978408b326aa3e7, type: 2}
+  Ingredients:
+  - Name: Flour
+    Ingredient: {fileID: 11400000, guid: db382a14456a20940979d1ca3665c9f2, type: 2}
+    Quantity: 500
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Water
+    Ingredient: {fileID: 11400000, guid: fb2ffd809d24f7c429f06e9861fc5608, type: 2}
+    Quantity: 375
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Starter
+    Ingredient: {fileID: 11400000, guid: f8b977b5c14650247a80511ddcf46775, type: 2}
+    Quantity: 100
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  - Name: Salt
+    Ingredient: {fileID: 11400000, guid: 26fa227c7af1d434286014a4b11c3deb, type: 2}
+    Quantity: 10
+    Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+    PreStates: []
+    PostStates: []
+  Stages:
+  - Name: Autolyze
+    Steps:
+    - Action: Mix your Water and Flour
+      Ingredients:
+      - Name: Flour
+        Ingredient: {fileID: 11400000, guid: db382a14456a20940979d1ca3665c9f2, type: 2}
+        Quantity: 500
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      - Name: Water
+        Ingredient: {fileID: 11400000, guid: fb2ffd809d24f7c429f06e9861fc5608, type: 2}
+        Quantity: 375
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      Tools:
+      - {fileID: 11400000, guid: 4677ad4b241ae024d89271af2a7c7844, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Wait for ~60 minutes
+      Ingredients:
+      - Name: Flour
+        Ingredient: {fileID: 11400000, guid: db382a14456a20940979d1ca3665c9f2, type: 2}
+        Quantity: 500
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      - Name: Water
+        Ingredient: {fileID: 11400000, guid: fb2ffd809d24f7c429f06e9861fc5608, type: 2}
+        Quantity: 375
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      Tools: []
+      Duration: 60
+      TimeUnit: {fileID: 0}
+  - Name: Kneading
+    Steps:
+    - Action: Add your salt and starter
+      Ingredients:
+      - Name: Starter
+        Ingredient: {fileID: 11400000, guid: f8b977b5c14650247a80511ddcf46775, type: 2}
+        Quantity: 100
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      - Name: Salt
+        Ingredient: {fileID: 11400000, guid: 26fa227c7af1d434286014a4b11c3deb, type: 2}
+        Quantity: 10
+        Unit: {fileID: 11400000, guid: 6324cab03256cf24d9c83a469759cda8, type: 2}
+        PreStates: []
+        PostStates: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Turn out onto a countertop
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 36c6ac2180be51342a260c29c0ee4d95, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Knead for 10 minutes
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Place the dough back in the bowl and cover
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 4677ad4b241ae024d89271af2a7c7844, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+  - Name: Bulk Fermentation
+    Steps:
+    - Action: Let proof for 3 hours, folding every 30 minutes
+      Ingredients: []
+      Tools: []
+      Duration: 3
+      TimeUnit: {fileID: 11400000, guid: a02efff6ce7e46742b7fd6f69c69ab22, type: 2}
+    - Action: 
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+  - Name: Shaping
+    Steps:
+    - Action: Turn dough out onto the counter
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 36c6ac2180be51342a260c29c0ee4d95, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Make into a tight ball
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Wait 15 minutes
+      Ingredients: []
+      Tools: []
+      Duration: 15
+      TimeUnit: {fileID: 11400000, guid: a76e32af14a756547a325667fd85a496, type: 2}
+    - Action: Shape loaf into final form
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Lightly flour shaped loaf
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Place into banneton
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: c3552d2e9e2f01847b2d7ab44ac8d765, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Lightly flour
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Cover with a towel
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
+  - Name: Final Proof
+    Steps:
+    - Action: Refridgerate overnight
+      Ingredients: []
+      Tools: []
+      Duration: 8
+      TimeUnit: {fileID: 11400000, guid: a02efff6ce7e46742b7fd6f69c69ab22, type: 2}
+  - Name: Baking
+    Steps:
+    - Action: Preheat oven with dutch oven to 500 degrees
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      - {fileID: 11400000, guid: 5f55b6d76c1554f4c9fb9e4f2d11660a, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Turn loaf out onto a piece of parchment paper
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 2ecab93166623694b94aa72f653c9dfd, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Score
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 99824803ed64749489fe24deccc9b37d, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Transfer loaf to the dutch oven and cover
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      - {fileID: 11400000, guid: 5f55b6d76c1554f4c9fb9e4f2d11660a, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Bake for 20 minutes
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      Duration: 20
+      TimeUnit: {fileID: 11400000, guid: a76e32af14a756547a325667fd85a496, type: 2}
+    - Action: Reduce temperature to 400 degrees
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Remove lid
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+    - Action: Bake for 20 minutes
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 6bd9e54bd4bb6c44ebc04459374a1320, type: 2}
+      Duration: 20
+      TimeUnit: {fileID: 11400000, guid: a76e32af14a756547a325667fd85a496, type: 2}
+    - Action: Remove to a wire rack
+      Ingredients: []
+      Tools:
+      - {fileID: 11400000, guid: 23473cdb21b4ff44cb9c10a39b9c479d, type: 2}
+      Duration: 0
+      TimeUnit: {fileID: 0}
+  - Name: Rest
+    Steps:
+    - Action: Let rest 2 hours before cutting
+      Ingredients: []
+      Tools: []
+      Duration: 0
+      TimeUnit: {fileID: 0}
